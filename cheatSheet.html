@@ -1,0 +1,28 @@
+<html ng-app="app">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/cheat.js"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+    <link rel="stylesheet" href="/styles/site.css" />
+</head>
+
+<body class="w3-container">
+    <div ng-controller="cheatController as vm" class="w3-container">
+        <label class="w3-text-shadow">value:</label>{{vm.val|filt:1}}</i>
+        </br>
+        <label class="w3-text-shadow">factory:</label><i>{{vm.fact}}</i></br>
+        <label class="w3-text-shadow">constant:</label><i>{{vm.PI}}</i></br>
+        <label class="w3-text-shadow">serv:</label><i>{{vm.serv.getProperty().res}}</i>
+        <button ng-click="vm.serv.setProperty('this')">Set</button>
+
+    </div>
+    <directive-name header="Directive text !"></directive-name>
+    </br>
+    <i jumbo>Jumbo attribute directive text !</i>
+<pre class="w3-wide">app-->controller-->[value,constant,factory,service,directive]</pre>
+</body>
+</html>

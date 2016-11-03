@@ -1,0 +1,43 @@
+[{
+    "Header": "MainBoard",
+    "Options": [{
+        "Text": "MSI",
+        "Value": "MSI"
+    }, {
+        "Text": "Intel",
+        "Value": "Intel"
+    }, {
+        "Text": "Gigabyte",
+        "Value": "Gigabyte"
+    }]
+}, {
+    "Header": "Processor",
+    "Options": [{
+        "Text": "AMD",
+        "Value": "AMD"
+    }, {
+        "Text": "Intel",
+        "Value": "Intel"
+    }, {
+        "Text": "TI",
+        "Value": "TI"
+    }, {
+        "Text": "Maxim",
+        "Value": "Maxim"
+    }, {
+        "Text": "Apple",
+        "Value": "Apple"
+    }]
+}, {
+    "Header": "Monitor",
+    "Options": [{
+        "Text": "Samsung",
+        "Value": "Samsung"
+    }, {
+        "Text": "LG",
+        "Value": "LG"
+    }, {
+        "Text": "MSI",
+        "Value": "MSI"
+    }]
+}]

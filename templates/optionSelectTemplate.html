@@ -1,0 +1,61 @@
+<div>   
+    <div class="w3-row">
+        <div class="w3-col"  style="width:auto;text-align:left">
+            <button class="w3-btn w3-green w3-col w3-ripple" style="width:auto" id="save"
+                    ng-click="vm.showModal(vm.result)">
+                {{buttonName}}
+            </button>
+        </div>
+        <div class="w3-rest w3-container w3-margin-left">
+            <span ng-if="!editable" style="vertical-align:middle">{{result}}</span>
+            <span ng-if="editable" style="display:inline">
+                <input class="w3-input w3-rest" style="display:inline" 
+                       ng-model="$parent.result"
+                       placeholder="enter value or choose..."/>
+            </span>           
+        </div>
+     </div>
+    <div class="w3-modal w3-container w3-card-4" id="{{vm.uniqueId}}" style="z-index: 100; position:absolute;">
+        <div class="w3-modal-content w3-animate-zoom">
+            <header class="w3-container w3-teal w3-ripple">
+                <span ng-click="vm.closeModal()"
+                      class="w3-closebtn">&times;</span>
+                <h2>{{header}}</h2>
+            </header>
+            <form method="post">
+                <div class="w3-row-padding ">
+                    <div>
+                        <div ng-repeat="option in vm.options"
+                             style="display:inline-block;">
+                            <div class="tooltip" >
+                                <h3 style="margin:0">{{option.Header|trim:8}}</h3>
+                                <span class="tooltiptext">{{option.Header}}</span>
+                            </div>
+                            <select class="w3-fourth" name="{{option.Header}}" ng-size="{{vm.optionSize}}"
+                                    ng-model="option.selection"
+                                    ng-options="kv.Text for kv in option.Options|orderBy:'Text':false:excludeElementComparer"
+                                    ng-init="option.selection = selectFirst?(option.Options|orderBy:'Text':false:excludeElementComparer)[0]:null"
+                                    style="display:block; min-width:100px;margin:3px;position:sticky;border-radius:4px;border:1px solid #AAAAAA;vertical-align:top; overflow:hidden;"></select>
+                            <ul style="display:block;max-width:150px;text-align:left">
+                                <div class="tooltip" >
+                                    <li>{{option.selection.Value|trim:9}}</li>
+                                     <span class="tooltiptext">{{option.selection.Value}}</span>
+                                <div class="tooltip" >
+                            </ul>
+                        </div>                       
+                    </div>
+                </div>
+            </form>
+            <footer class="w3-container w3-teal">
+                <p>
+                    <input type="submit" class="w3-btn w3-green w3-ripple" value="Select" ng-click="vm.select(vm)" />
+                    <button type="button" class="w3-btn w3-red w3-ripple" ng-click="vm.closeModal()">Close</button>
+                </p>
+                <p>
+                    {{vm.result}}
+                </p>
+            </footer>
+        </div>
+    </div>
+
+</div>

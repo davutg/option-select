@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/cheat.js"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+    <link rel="stylesheet" href="/styles/site.css" />
+</head>
+
+<body>
+    <div ng-app="app">   
+        <div ng-controller="mainPage" style="margin:5px">
+
+            <div class="w3-row">
+                <div class="w3-half">
+                    <option-select select-first editable="{{isEditable}}" header="Instrunctions" options-url="'/data/options.json'" unique-id="optionsContent">
+                    </option-select>
+                </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+                <option-select select-first editable="{{isEditable}}" header="Instrunctions" options-url="'/data/options.json'" model="result1" unique-id="optionsInstructions" button-name="Instructions"></option-select>
+            </div>
+            <br/>
+            <div class="w3-row">
+                <option-select header="Build your PC !!!" button-name="Build a PC" options-url="'/data/pc.dat'" unique-id="pcContent">
+                </option-select>
+            </div>
+
+        </div>
+    </div>
+</body>

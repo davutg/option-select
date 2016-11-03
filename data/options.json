@@ -1,0 +1,504 @@
+[
+    {
+        "Header": "Dose",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "na"
+            },
+            {
+                "Text": "apply",
+                "Value": "apply"
+            },
+            {
+                "Text": "0.1",
+                "Value": "0.1"
+            },
+            {
+                "Text": "0.25",
+                "Value": "0.25"
+            },
+            {
+                "Text": "0.5",
+                "Value": "0.5"
+            },
+            {
+                "Text": "1",
+                "Value": "1"
+            },
+            {
+                "Text": "2",
+                "Value": "2"
+            },
+            {
+                "Text": "3",
+                "Value": "3"
+            },
+            {
+                "Text": "4",
+                "Value": "4"
+            },
+            {
+                "Text": "1-2",
+                "Value": "1-2"
+            },
+            {
+                "Text": "2-3",
+                "Value": "2-3"
+            },
+            {
+                "Text": "2-3",
+                "Value": "2-3"
+            },
+            {
+                "Text": "3-4",
+                "Value": "3-4"
+            },
+            {
+                "Text": "5",
+                "Value": "5"
+            },
+            {
+                "Text": "5-10",
+                "Value": "5-10"
+            },
+            {
+                "Text": "6",
+                "Value": "6"
+            },
+            {
+                "Text": "7",
+                "Value": "7"
+            },
+            {
+                "Text": "8",
+                "Value": "8"
+            },
+            {
+                "Text": "9",
+                "Value": "9"
+            }
+        ]
+    },
+    {
+        "Header": "Unit",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "n/a"
+            },
+            {
+                "Text": "miligram(s)",
+                "Value": "miligram(s)"
+            },
+            {
+                "Text": "mililiter(s)",
+                "Value": "mililiter(s)"
+            },
+            {
+                "Text": "gram(s)",
+                "Value": "gram(s)"
+            },
+            {
+                "Text": "unit(s)",
+                "Value": "unit(s)"
+            },
+            {
+                "Text": "international unit(s)",
+                "Value": "international unit(s)"
+            },
+            {
+                "Text": "microgram(s)",
+                "Value": "microgram(s)"
+            },
+            {
+                "Text": "inch(es)",
+                "Value": "inch(es)"
+            },
+            {
+                "Text": "miliequivalent(s)",
+                "Value": "miliequivalent(s)"
+            },
+            {
+                "Text": "drops",
+                "Value": "drops"
+            },
+            {
+                "Text": "applicatorful",
+                "Value": "applicatorful"
+            },
+            {
+                "Text": "scoop(s)",
+                "Value": "scoop(s)"
+            },
+            {
+                "Text": "day(s)",
+                "Value": "day(s)"
+            },
+            {
+                "Text": "hour(s)",
+                "Value": "hour(s)"
+            },
+            {
+                "Text": "minute(s)",
+                "Value": "minute(s)"
+            },
+            {
+                "Text": "suppository(ies)",
+                "Value": "suppository(ies)"
+            },
+            {
+                "Text": "gum",
+                "Value": "gum"
+            },
+            {
+                "Text": "patch",
+                "Value": "patch"
+            },
+            {
+                "Text": "lozenge",
+                "Value": "lozenge"
+            }
+        ]
+    },
+    {
+        "Header": "Route",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "n/a"
+            },
+            {
+                "Text": "implant",
+                "Value": "implant"
+            },
+            {
+                "Text": "inhalation",
+                "Value": "inhalation"
+            },
+            {
+                "Text": "compounding",
+                "Value": "compounding"
+            },
+            {
+                "Text": "injectable",
+                "Value": "injectable"
+            },
+            {
+                "Text": "intra-articular",
+                "Value": "intra-articular"
+            },
+            {
+                "Text": "intrabiliary",
+                "Value": "intrabiliary"
+            },
+            {
+                "Text": "intradermal",
+                "Value": "intradermal"
+            },
+            {
+                "Text": "intralymphatic",
+                "Value": "intralymphatic"
+            },
+            {
+                "Text": "intramascular",
+                "Value": "intramascular"
+            },
+            {
+                "Text": "intraocular",
+                "Value": "intraocular"
+            },
+            {
+                "Text": "intraperitoneal",
+                "Value": "intraperitoneal"
+            },
+            {
+                "Text": "intrathecal",
+                "Value": "intrathecal"
+            },
+            {
+                "Text": "intratracheal",
+                "Value": "intratracheal"
+            },
+            {
+                "Text": "intrauteral",
+                "Value": "intrauteral"
+            },
+            {
+                "Text": "intravenous",
+                "Value": "intravenous"
+            },
+            {
+                "Text": "irrigation",
+                "Value": "irrigation"
+            },
+            {
+                "Text": "mucous membrane",
+                "Value": "mucous membrane"
+            },
+            {
+                "Text": "nasal",
+                "Value": "nasal"
+            },
+            {
+                "Text": "ophthalmic",
+                "Value": "ophthalmic"
+            }
+        ]
+    },
+    {
+        "Header": "Frequency",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "n/a"
+            },
+            {
+                "Text": "2 times a day",
+                "Value": "2 times a day"
+            },
+            {
+                "Text": "3 times a day",
+                "Value": "3 times a day"
+            },
+            {
+                "Text": "4 times a day",
+                "Value": "4 times a day"
+            },
+            {
+                "Text": "5 times a day",
+                "Value": "5 times a day"
+            },
+            {
+                "Text": "every 18 hours",
+                "Value": "every 18 hours"
+            },
+            {
+                "Text": "every 36 hours",
+                "Value": "every 36 hours"
+            },
+            {
+                "Text": "every 48 hours",
+                "Value": "every 48 hours"
+            },
+            {
+                "Text": "every 72 hours",
+                "Value": "every 72 hours"
+            },
+            {
+                "Text": "every 7 days",
+                "Value": "every 7 days"
+            },
+            {
+                "Text": "every other day",
+                "Value": "every other day"
+            },
+            {
+                "Text": "once a day",
+                "Value": "once a day"
+            },
+            {
+                "Text": "once a month",
+                "Value": "once a month"
+            },
+            {
+                "Text": "once a week",
+                "Value": "once a week"
+            },
+            {
+                "Text": "2 times a week",
+                "Value": "2 times a week"
+            },
+            {
+                "Text": "every 15 minutes",
+                "Value": "every 15 minutes"
+            },
+            {
+                "Text": "every hour",
+                "Value": "every hour"
+            },
+            {
+                "Text": "10 times a day",
+                "Value": "10 times a day"
+            },
+            {
+                "Text": "12 times a day",
+                "Value": "12 times a day"
+            },
+            {
+                "Text": "other",
+                "Value": "other"
+            }
+        ]
+    },
+    {
+        "Header": "Directions",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "n/a"
+            },
+            {
+                "Text": "as needed",
+                "Value": "as needed"
+            },
+            {
+                "Text": "before meals",
+                "Value": "before meals"
+            },
+            {
+                "Text": "after meals",
+                "Value": "after meals"
+            },
+            {
+                "Text": "with meals",
+                "Value": "with meals"
+            },
+            {
+                "Text": "before every meal",
+                "Value": "before every meal"
+            },
+            {
+                "Text": "after every meal",
+                "Value": "after every meal"
+            },
+            {
+                "Text": "in the morning",
+                "Value": "in the morning"
+            },
+            {
+                "Text": "in the afternoon",
+                "Value": "in the afternoon"
+            },
+            {
+                "Text": "in the evenning",
+                "Value": "in the evenning"
+            },
+            {
+                "Text": "at bedtime",
+                "Value": "at bedtime"
+            },
+            {
+                "Text": "x1 week",
+                "Value": "x1 week"
+            },
+            {
+                "Text": "x3 weeks",
+                "Value": "x3 weeks"
+            },
+            {
+                "Text": "x4 weeks",
+                "Value": "x4 weeks"
+            },
+            {
+                "Text": "x5 weeks",
+                "Value": "x5 weeks"
+            },
+            {
+                "Text": "x6 weeks",
+                "Value": "x6 weeks"
+            },
+            {
+                "Text": "x7 weeks",
+                "Value": "x7 weeks"
+            },
+            {
+                "Text": "x8 weeks",
+                "Value": "x8 weeks"
+            },
+            {
+                "Text": "alternate nostrils",
+                "Value": "alternate nostrils"
+            },
+            {
+                "Text": "swish swallow",
+                "Value": "swish swallow"
+            }
+        ]
+    },
+    {
+        "Header": "Duration",
+        "Options": [
+            {
+                "Text": "n/a",
+                "Value": "n/a"
+            },
+            {
+                "Text": "x1 week",
+                "Value": "x1 week"
+            },
+            {
+                "Text": "x3 weeks",
+                "Value": "x3 weeks"
+            },
+            {
+                "Text": "x4 weeks",
+                "Value": "x4 weeks"
+            },
+            {
+                "Text": "x5 weeks",
+                "Value": "x5 weeks"
+            },
+            {
+                "Text": "x6 weeks",
+                "Value": "x6 weeks"
+            },
+            {
+                "Text": "x7 weeks",
+                "Value": "x7 weeks"
+            },
+            {
+                "Text": "x8 weeks",
+                "Value": "x8 weeks"
+            },
+            {
+                "Text": "x2 doses",
+                "Value": "x2 doses"
+            },
+            {
+                "Text": "x3 doses",
+                "Value": "x3 doses"
+            },
+            {
+                "Text": "x4 doses",
+                "Value": "x4 doses"
+            },
+            {
+                "Text": "x1 day",
+                "Value": "x1 day"
+            },
+            {
+                "Text": "x2 days",
+                "Value": "x2 days"
+            },
+            {
+                "Text": "x3 days",
+                "Value": "x3 days"
+            },
+            {
+                "Text": "x7 days",
+                "Value": "x7 days"
+            },
+            {
+                "Text": "x10 days",
+                "Value": "x10 days"
+            },
+            {
+                "Text": "x12 weeks",
+                "Value": "x12 weeks"
+            },
+            {
+                "Text": "x1month",
+                "Value": "x1month"
+            },
+            {
+                "Text": "x2months",
+                "Value": "x2months"
+            },
+            {
+                "Text": "x3 months",
+                "Value": "x3 months"
+            }
+        ]
+    }
+]
