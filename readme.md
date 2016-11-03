@@ -58,7 +58,7 @@ These are ;
 
 ## Clone
 You can clone this repo with following git command
-`git clone https://github.com/planetoftheweb/angular2.git`
+`git clone https://github.com/davutg/option-select.git`
 
 ## Technologies benefited
 - [AngularJS](https://angularjs.org/)
