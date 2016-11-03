@@ -1,5 +1,5 @@
 # Option Select
-[![Angular1x:optionSelect](/img/snap.JPG)]
+![Angular1x:optionSelect](/img/snap.JPG)
 This is an `OptionSelect UI control` project which faciliate text enterence. 
 Instead of entering value you can pick values from listed options.
 
